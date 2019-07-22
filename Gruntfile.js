@@ -15,6 +15,7 @@ module.exports = function (grunt) {
         src: './icons/*.svg',
         dest: './dist',
         options: {
+          font: 'feather-icons',
           templateOptions: {
             baseClass: 'feather-icon',
             classPrefix: 'icon-'

@@ -3,18 +3,18 @@
 
 
 @font-face {
-	font-family:"icons";
-	src:url("icons.eot?acdc25575f4540937964e316083b6e4a");
-	src:url("icons.eot?acdc25575f4540937964e316083b6e4a#iefix") format("embedded-opentype"),
-		url("icons.woff?acdc25575f4540937964e316083b6e4a") format("woff"),
-		url("icons.ttf?acdc25575f4540937964e316083b6e4a") format("truetype");
+	font-family:"feather-icons";
+	src:url("feather-icons.eot?d6f5a7d76e8bf9f8e3f9f658eb2d0cb8");
+	src:url("feather-icons.eot?d6f5a7d76e8bf9f8e3f9f658eb2d0cb8#iefix") format("embedded-opentype"),
+		url("feather-icons.woff?d6f5a7d76e8bf9f8e3f9f658eb2d0cb8") format("woff"),
+		url("feather-icons.ttf?d6f5a7d76e8bf9f8e3f9f658eb2d0cb8") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
 
 .feather-icon {
 	
-		font-family:"icons";
+		font-family:"feather-icons";
 	
 	display:inline-block;
 	line-height:1;

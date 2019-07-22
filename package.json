@@ -1,0 +1,18 @@
+{
+  "name": "feather-webfont",
+  "version": "4.22.1",
+  "description": "A webfont version of feather icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklauslee/feather-webfont.git"
+  },
+  "author": "niklauslee",
+  "dependencies": {
+    "feather-icons": "^4.22.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-webfont": "^1.7.2"
+  }
+}

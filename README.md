@@ -23,3 +23,7 @@ Include `icons.css` in `dist` folder.
 ```sh
 $ (sudo) grunt
 ```
+
+## Additional Icons
+
+- `star-s` solid-style star icon

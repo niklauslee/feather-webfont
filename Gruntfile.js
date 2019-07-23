@@ -8,7 +8,13 @@ module.exports = function (grunt) {
         cwd: './node_modules/feather-icons/dist/icons/',
         src: ['*.svg', '!tablet.svg'],
         dest: './icons'
-      }
+      },
+      additional: {
+        expand: true,
+        cwd: './additional-icons/',
+        src: ['*.svg'],
+        dest: './icons'
+      },
     },
     webfont: {
       icons: {
@@ -30,5 +36,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-webfont')
 
   // Default task(s).
-  grunt.registerTask('default', ['copy', 'webfont'])
+  grunt.registerTask('default', ['copy', 'copy:additional', 'webfont'])
 }
